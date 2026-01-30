@@ -3,31 +3,127 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AnimeSenpai</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="icon"
+      href="https://i.pinimg.com/736x/61/a6/3f/61a63f585c91c9adb1fbedc1bac489c0.jpg"
+    />
+    <title>Mymanga</title>
+    <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-    <header class="header__conteiner">
-      <h1 class="name__title">Senpai</h1>
-      <nav class="nav__title">
-        <img class="logo" src="logo.png" alt="Logo" />
+    <header class="header">
+      <h1>Senpai</h1>
+      <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Каталог</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Поиск</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Форум</a></li>
+          <li class="nav__item">
+            <button class="nav__button" type="button">Главная</button>
+          </li>
+          <li class="nav__item">
+            <button class="nav__button" type="button">Популярное</button>
+          </li>
+          <li class="nav__item">
+            <button class="nav__button" type="button">Каталог</button>
+          </li>
+          <li class="nav__item">
+            <button class="nav__button" type="button">Поиск</button>
+          </li>
+          <li class="nav__item">
+            <button class="nav__button" type="button">Контакт</button>
+          </li>
         </ul>
       </nav>
     </header>
     <main class="main">
-      <section class="section">
-        <h2 class="section__title">Добро пожаловать в MangaBotom!</h2>
-        <p class="section__description">
-          Ваш лучший источник манги онлайн. Исследуйте наш обширный каталог и
-          наслаждайтесь чтением!
-        </p>
+      <section class="catalog">
+        <h2 class="catalog__title">Популярное</h2>
+        <div class="grid">
+          <article class="card">
+            <img
+              class="card__img"
+              src="https://cover.imglib.info/uploads/cover/eleceed-/cover/3c40a48f-dbe7-4494-9d7a-a5b740b24878.jpg"
+              alt="Обложка манги"
+            />
+            <h3 class="card__title">Элисед</h3>
+          </article>
+          <article class="card">
+            <img
+              class="card__img"
+              src="https://cover.imglib.info/uploads/cover/forward/cover/62589c14-4775-43a6-90d6-f1da19bf3daa.jpg"
+              alt="Обложка манги"
+            />
+            <h3 class="card__title">Нападающий</h3>
+          </article>
+          <article class="card">
+            <img
+              class="card__img"
+              src="https://cover.imglib.info/uploads/cover/sidonia-no-kishi/cover/7500f668-3258-4b18-a315-931af1aa3ca9.jpg"
+              alt="Обложка манги"
+            />
+            <h3 class="card__title">Рыцари «Сидонии»</h3>
+          </article>
+          <article class="card">
+            <img
+              class="card__img"
+              src="https://cover.imglib.info/uploads/cover/yofukashi-no-uta/cover/554b3e68-1e0c-46eb-89a0-bd021400d497.jpg"
+              alt="Обложка манги"
+            />
+            <h3 class="card__title">Песеь ночных бродяг</h3>
+          </article>
+          <article class="card">
+            <img
+              class="card__img"
+              src="https://cover.imglib.info/uploads/cover/academieser-salanamgin/cover/b899259d-04ca-4740-bfbf-abc45c90c11f.jpg"
+              alt="Обложка манги"
+            />
+            <h3 class="card__title">Как выжить в академии</h3>
+          </article>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <img
+              class="card__img"
+              src="https://cover.imglib.info/uploads/cover/eshhyo-odin-solnecnyi-den/cover/bFMNGmwAo8Vo_250x350.jpg"
+              alt="Обложка манги"
+            />
+            <h3 class="card__title">Ещё один солнечный день</h3>
+          </article>
+          <article class="card">
+            <img
+              class="card__img"
+              src="https://cover.imglib.info/uploads/cover/bisonsilse-lady/cover/d1b22296-631b-4902-9932-89b9865293c1.jpg"
+              alt="Обложка манги"
+            />
+            <h3 class="card__title">Влиятельная леди</h3>
+          </article>
+          <article class="card">
+            <img
+              class="card__img"
+              src="https://cover.imglib.info/uploads/cover/dfrag/cover/f930127e-22ac-4e0b-8126-f018b698c445.jpg"
+              alt="Обложка манги"
+            />
+            <h3 class="card__title">Дефрагментация!</h3>
+          </article>
+          <article class="card">
+            <img
+              class="card__img"
+              src="https://cover.imglib.info/uploads/cover/stalker-x-stalker/cover/jpmkjMlmmyxD_250x350.jpg"
+              alt="Обложка манги"
+            />
+            <h3 class="card__title">Сталкер и Сталкер</h3>
+          </article>
+          <article class="card">
+            <img
+              class="card__img"
+              src="https://cover.imglib.info/uploads/cover/erma/cover/cover_250x350.jpg"
+              alt="Обложка манги"
+            />
+            <h3 class="card__title">Эрма</h3>
+          </article>
+        </div>
       </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <small>SPA проект</small>
+    </footer>
   </body>
 </html>
