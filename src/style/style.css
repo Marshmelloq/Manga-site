@@ -10,7 +10,11 @@ body {
   background: #000;
   font-family: Arial, sans-serif;
 }
-
+.icon {
+  width: 80px;
+  height: auto;
+  border-radius: 50%;
+}
 .header {
   position: fixed;
   top: 0;
@@ -82,12 +86,10 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 12px;
-
   padding: 16px;
   border-radius: 12px;
   background: rgb(34, 34, 34);
   color: #fff;
-
   transition:
     transform 0.25s ease,
     box-shadow 0.25s ease;
