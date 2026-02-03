@@ -3,127 +3,107 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      href="https://i.pinimg.com/736x/61/a6/3f/61a63f585c91c9adb1fbedc1bac489c0.jpg"
-    />
     <title>Mymanga</title>
     <link rel="stylesheet" href="./style/style.css" />
+    <link rel="icon" href="./public/icon.jpg" />
   </head>
   <body>
     <header class="header">
-      <h1>Senpai</h1>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <button class="nav__button" type="button">Главная</button>
-          </li>
-          <li class="nav__item">
-            <button class="nav__button" type="button">Популярное</button>
-          </li>
-          <li class="nav__item">
-            <button class="nav__button" type="button">Каталог</button>
-          </li>
-          <li class="nav__item">
-            <button class="nav__button" type="button">Поиск</button>
-          </li>
-          <li class="nav__item">
-            <button class="nav__button" type="button">Контакт</button>
-          </li>
-        </ul>
-      </nav>
+      <div class="header__inner">
+        <h1 class="logo">Senpai</h1>
+        <nav class="nav">
+          <button class="nav__bt" type="button">Главная</button>
+          <button class="nav__bt" type="button">Популярное</button>
+          <button class="nav__bt" type="button">Каталог</button>
+          <button class="nav__bt" type="button">Поиск</button>
+          <button class="nav__bt" type="button">Контакт</button>
+        </nav>
+      </div>
     </header>
     <main class="main">
       <section class="catalog">
         <h2 class="catalog__title">Популярное</h2>
-        <div class="grid">
-          <article class="card">
-            <img
-              class="card__img"
-              src="https://cover.imglib.info/uploads/cover/eleceed-/cover/3c40a48f-dbe7-4494-9d7a-a5b740b24878.jpg"
-              alt="Обложка манги"
-            />
-            <h3 class="card__title">Элисед</h3>
-          </article>
-          <article class="card">
-            <img
-              class="card__img"
-              src="https://cover.imglib.info/uploads/cover/forward/cover/62589c14-4775-43a6-90d6-f1da19bf3daa.jpg"
-              alt="Обложка манги"
-            />
-            <h3 class="card__title">Нападающий</h3>
-          </article>
-          <article class="card">
-            <img
-              class="card__img"
-              src="https://cover.imglib.info/uploads/cover/sidonia-no-kishi/cover/7500f668-3258-4b18-a315-931af1aa3ca9.jpg"
-              alt="Обложка манги"
-            />
-            <h3 class="card__title">Рыцари «Сидонии»</h3>
-          </article>
-          <article class="card">
-            <img
-              class="card__img"
-              src="https://cover.imglib.info/uploads/cover/yofukashi-no-uta/cover/554b3e68-1e0c-46eb-89a0-bd021400d497.jpg"
-              alt="Обложка манги"
-            />
-            <h3 class="card__title">Песеь ночных бродяг</h3>
-          </article>
-          <article class="card">
-            <img
-              class="card__img"
-              src="https://cover.imglib.info/uploads/cover/academieser-salanamgin/cover/b899259d-04ca-4740-bfbf-abc45c90c11f.jpg"
-              alt="Обложка манги"
-            />
-            <h3 class="card__title">Как выжить в академии</h3>
-          </article>
-        </div>
-        <div class="grid">
-          <article class="card">
-            <img
-              class="card__img"
-              src="https://cover.imglib.info/uploads/cover/eshhyo-odin-solnecnyi-den/cover/bFMNGmwAo8Vo_250x350.jpg"
-              alt="Обложка манги"
-            />
-            <h3 class="card__title">Ещё один солнечный день</h3>
-          </article>
-          <article class="card">
-            <img
-              class="card__img"
-              src="https://cover.imglib.info/uploads/cover/bisonsilse-lady/cover/d1b22296-631b-4902-9932-89b9865293c1.jpg"
-              alt="Обложка манги"
-            />
-            <h3 class="card__title">Влиятельная леди</h3>
-          </article>
-          <article class="card">
-            <img
-              class="card__img"
-              src="https://cover.imglib.info/uploads/cover/dfrag/cover/f930127e-22ac-4e0b-8126-f018b698c445.jpg"
-              alt="Обложка манги"
-            />
-            <h3 class="card__title">Дефрагментация!</h3>
-          </article>
-          <article class="card">
-            <img
-              class="card__img"
-              src="https://cover.imglib.info/uploads/cover/stalker-x-stalker/cover/jpmkjMlmmyxD_250x350.jpg"
-              alt="Обложка манги"
-            />
-            <h3 class="card__title">Сталкер и Сталкер</h3>
-          </article>
-          <article class="card">
-            <img
-              class="card__img"
-              src="https://cover.imglib.info/uploads/cover/erma/cover/cover_250x350.jpg"
-              alt="Обложка манги"
-            />
-            <h3 class="card__title">Эрма</h3>
-          </article>
+        <div class="catalog__wrap">
+          <div class="grid">
+            <article class="card">
+              <img
+                class="card__img"
+                src="https://static.yani.tv/posters/huge/1636915791.avif"
+                alt=""
+              />
+              <h3 class="card__title">Магическая битва</h3>
+              <p class="card__footer">9.8⭐</p>
+            </article>
+            <article class="card">
+              <img
+                class="card__img"
+                src="https://static.yani.tv/posters/huge/1636901609.avif"
+                alt=""
+              />
+              <h3 class="card__title">Адский рай 2</h3>
+              <p class="card__footer">9.6⭐</p>
+            </article>
+            <article class="card">
+              <img
+                class="card__img"
+                src="https://static.yani.tv/posters/huge/1636907959.avif"
+                alt=""
+              />
+              <h3 class="card__title">Фрирен</h3>
+              <p class="card__footer">9.8⭐</p>
+            </article>
+            <article class="card">
+              <img
+                class="card__img"
+                src="https://cover.imglib.info/uploads/cover/garbage-brave-isekai-ni-shoukan-sare-suterareta-yuusha-no-fukushuu-monogatari/cover/nK9SZRRji9ai_250x350.jpg"
+                alt=""
+              />
+              <h3 class="card__title">Отстойный герой: Месть в ином мире</h3>
+              <p class="card__footer">8.6⭐</p>
+            </article>
+            <article class="card">
+              <img
+                class="card__img"
+                src="https://cover.imglib.info/uploads/cover/hyangdandyeon/cover/ef7f79b2-73b9-482e-b0ae-78d3a63d5573.jpg"
+                alt=""
+              />
+              <h3 class="card__title">Сказания хяндан</h3>
+              <p class="card__footer">9.4⭐</p>
+            </article>
+            <article class="card">
+              <img
+                class="card__img"
+                src="https://cover.imglib.info/uploads/cover/hajime-no-ippo/cover/c0976bfe-edb7-4429-af5f-bb0b3a09e68d.jpg"
+                alt=""
+              />
+              <h3 class="card__title">Первый шаг</h3>
+              <p class="card__footer">8.6⭐</p>
+            </article>
+            <article class="card">
+              <img
+                class="card__img"
+                src="https://cover.imglib.info/uploads/cover/stalker-x-stalker/cover/jpmkjMlmmyxD_250x350.jpg"
+                alt=""
+              />
+              <h3 class="card__title">Сталкерша и Сталкер</h3>
+              <p class="card__footer">8.8⭐</p>
+            </article>
+            <article class="card">
+              <img
+                class="card__img"
+                src="https://cover.imglib.info/uploads/cover/dakugyazaringu/cover/b2cddd64-476b-41b0-b54d-c8f20fd77382.jpg"
+                alt=""
+              />
+              <h3 class="card__title">Тёмное собрание</h3>
+              <p class="card__footer">8.7⭐</p>
+            </article>
+          </div>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <small>SPA проект</small>
+      <h3>Mykola Chydyn</h3>
+      <p>© 2026</p>
     </footer>
   </body>
 </html>
