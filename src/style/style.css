@@ -6,15 +6,18 @@
 a {
   cursor: pointer;
 }
+
 body {
   background: #000;
   font-family: Arial, sans-serif;
 }
+
 .icon {
   width: 80px;
   height: auto;
   border-radius: 50%;
 }
+
 .header {
   position: fixed;
   top: 0;
@@ -40,21 +43,25 @@ body {
   white-space: nowrap;
 }
 
+.logo__end {
+  color: #f97316;
+  font-size: 24px;
+  white-space: nowrap;
+}
+
 .nav {
   display: flex;
-  justify-content: center;
-  gap: 120px;
-  flex-wrap: wrap;
-  width: 100%;
+  align-items: center;
+  gap: 48px;
 }
 
 .nav__bt {
-  background-color: rgba(0, 0, 0, 0.5); /* Черный с 50% прозрачностью */
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
   font-size: 20px;
-  padding: 24px 40px;
-  border-radius: 50px;
+  padding: 14px 20px;
+  border-radius: 20px;
 }
 
 .main {
